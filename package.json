@@ -1,0 +1,46 @@
+{
+  "name": "hexo-broken-link-checker",
+  "version": "1.0.0",
+  "description": "Detects links that don't work, missing images and redirects.",
+  "main": "index",
+  "author": {
+    "name": "Sergio Lepore",
+    "email": "sergio.d.lepore@gmail.com",
+    "url": "http://www.sergiolepore.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sergiolepore/hexo-broken-link-checker.git"
+  },
+  "dependencies": {
+    "request": ">= 2.27.0",
+    "wrench": ">= 1.5.4",
+    "colors": "*",
+    "JSONSelect": ">= 0.4.0",
+    "jsonfile": ">= 1.1.1",
+    "cli-table": ">= 0.2.0"
+  },
+  "keywords": [
+    "website",
+    "blog",
+    "hexo",
+    "broken",
+    "dead",
+    "link",
+    "redirection",
+    "404",
+    "error",
+    "checker",
+    "console",
+    "command"
+  ],
+  "licenses": [
+    {
+      "type": "BSD 3-Clause License",
+      "url": "https://github.com/sergiolepore/hexo-broken-link-checker/blob/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/sergiolepore/hexo-broken-link-checker/issues"
+  }
+}
