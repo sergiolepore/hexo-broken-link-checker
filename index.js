@@ -1,25 +1,21 @@
-var config    = hexo.config.link_checker || false,
-    isEnabled = config.enabled || false;
+var packageInfo = require('./package');
 
 var linkCheckerOptions = {
   alias: 'lc',
-  desc: 'Detects links that don\'t work, missing images and redirects.',
+  desc: packageInfo.description,
   usage: '<argument>',
   arguments: [
     {name: 'setup', desc: 'Initializes the storage file that will be used to store link data.'},
     {name: 'scan', desc: 'Starts the scanning process.'},
-    {name: 'clean', desc: 'Removes all files created by this plugin.'},
+    {name: 'clear', desc: 'Removes all files created by this plugin.'},
+    {name: 'clean-logs', desc: 'Removes only the log files created by this plugin.'},
     {name: 'reset', desc: 'Resets all storage files.'},
     {name: 'info', desc: 'Displays useful info, like plugin version, author or GitHub links'}
   ]
 };
 
-hexo.extend.console.register('link_checker', 'Detects links that don\'t work, missing images and redirects.', linkCheckerOptions, require('./command'));
+// register command handler
+hexo.extend.console.register('link_checker', packageInfo.description, linkCheckerOptions, require('./lib/command'));
 
-hexo.extend.filter.register('post', function(data, callback) {
-  if (!isEnabled) return callback(null, data);
-
-  console.log(data);
-
-  // return callback(null, data);
-});
+// register filter handler
+hexo.extend.filter.register('post', require('./lib/filter'));

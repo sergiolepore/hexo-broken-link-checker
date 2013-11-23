@@ -18,7 +18,10 @@
     "colors": "*",
     "JSONSelect": ">= 0.4.0",
     "jsonfile": ">= 1.1.1",
-    "cli-table": ">= 0.2.0"
+    "cli-table": ">= 0.2.0",
+    "prettyjson": "*",
+    "cheerio": "*",
+    "moment": ">= 2.4.0"
   },
   "keywords": [
     "website",
