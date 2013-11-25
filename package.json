@@ -21,7 +21,10 @@
     "cli-table": ">= 0.2.0",
     "prettyjson": "*",
     "cheerio": "*",
-    "moment": ">= 2.4.0"
+    "moment": "~2.4.0",
+    "puid": "~0.5.0",
+    "update-notifier": "~0.1.7",
+    "async": "~0.2.9"
   },
   "keywords": [
     "website",
