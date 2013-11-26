@@ -2,8 +2,8 @@
   "id": null,
   "url": null,
   "lastChecked": null,
-  "status": null,
-  "redirects": null,
+  "success": null,
+  "redirects": [],
   "link": {
     "type": null,
     "label": null

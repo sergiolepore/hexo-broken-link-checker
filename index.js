@@ -8,6 +8,7 @@ var linkCheckerOptions = {
     {name: 'setup', desc: 'Initializes the storage file that will be used to store link data.'},
     {name: 'scan', desc: 'Starts the scanning process.'},
     {name: 'clear', desc: 'Removes all files created by this plugin.'},
+    {name: 'config', desc: 'Shows the plugin configuration.'},
     {name: 'clean-logs', desc: 'Removes only the log files created by this plugin.'},
     {name: 'reset', desc: 'Resets all storage files.'},
     {name: 'info', desc: 'Displays useful info, like plugin version, author or GitHub links'}
