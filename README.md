@@ -3,6 +3,9 @@
 This is a [hexo](https://github.com/tommy351/hexo) plugin which detects links that don't work, missing images and redirects.
 
 
+#### This is a Work In Progress and it's not released on NPM yet.
+
+
 ![](http://i3.minus.com/icw5h1uvJKxqI.png)
 
 ![](http://i1.minus.com/ibbzd8eownAG1a.png)
