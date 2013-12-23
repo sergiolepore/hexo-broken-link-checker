@@ -148,3 +148,6 @@ hexo lc show-logs
 The screenshot below shows the log file when you set `silent_logs: true` into `_config.yml`:
 
 ![](http://i4.minus.com/iAqeZkqvwJnRL.png)
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/sergiolepore/hexo-broken-link-checker/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
