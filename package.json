@@ -40,7 +40,8 @@
     "error",
     "checker",
     "console",
-    "command"
+    "command",
+    "plugin"
   ],
   "licenses": [
     {
