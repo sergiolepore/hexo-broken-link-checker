@@ -102,7 +102,7 @@ If you have a blog with 1000 posts, and each article has 2 external links, you'l
 Once `hexo generate` has finished the extraction process, you can run:
 
 ```
-hexo scan
+hexo lc scan
 ```
 
 This command will take every link on the storage file and will make a HTTP request to it. All results will be stored on the same storage file.
