@@ -1,6 +1,6 @@
 {
   "name": "hexo-broken-link-checker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Detects links that don't work, missing images and redirects.",
   "main": "index",
   "author": {
