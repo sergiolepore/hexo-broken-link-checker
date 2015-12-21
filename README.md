@@ -2,16 +2,6 @@
 
 This is a [hexo](https://github.com/tommy351/hexo) plugin which detects links that don't work, missing images and redirects.
 
-
-![](http://i3.minus.com/icw5h1uvJKxqI.png)
-
-![](http://i1.minus.com/ibbzd8eownAG1a.png)
-
-![](http://i5.minus.com/ihC3tczVtPSiO.png)
-
-![](http://i3.minus.com/ibtoOO5NzKB2dv.png)
-
-
 ## Plugin installation
 
 Run the following command in the root directory of hexo:
@@ -25,7 +15,9 @@ And enable the plugin in your `_config.yml`.
 ```
 plugins:
   - hexo-broken-link-checker
-```
+  ```
+
+This is not necessary anymore for hexo 3.
 
 ## Configuration
 
@@ -53,12 +45,25 @@ hexo link_checker setup
 
 You'll see something link this:
 
-![](http://i2.minus.com/jDOtmwxDbVPIu.png)
+    (i) Creating working directory: /Users/abecchis/git/not-a-method/temp/link_checker/
+    (i) Generating storage file: data.json
+    (i) Applying write permissions to storage file.
+    (i) Generating log file: /Users/abecchis/git/not-a-method/temp/link_checker/log.json
+    (i) Done.
+
 
 If, for some reason, you execute this command twice, you'll see a warning message:
 
-![](http://i3.minus.com/jete6SfBHv2fX.png)
 
+    (i) Creating working directory: /Users/abecchis/git/not-a-method/temp/link_checker/
+    (!) The directory already exists.
+    (i) Generating storage file: data.json
+    (!) The storage file /Users/abecchis/git/not-a-method/temp/link_checker/data.json
+       already exists and will not be overwritten.
+       If you are COMPLETELY SURE, delete and recreate the files by running hexo link_checker reset.
+    (i) Applying write permissions to storage file.
+    (i) Generating log file: /Users/abecchis/git/not-a-method/temp/link_checker/log.json
+    (i) Done
 
 __Pro Tip!__
 
@@ -131,13 +136,7 @@ Options can be:
 * `--id=[linkID]`: shows detailed info of a link.
 
 Examples:
-
-![](http://i7.minus.com/ibsEPD2ptMAd40.png)
-
-![](http://i6.minus.com/ivA8JTFl6FK5Q.png)
-
-![](http://i7.minus.com/iDkB9bsPElZlX.png)
-
+*Pictures to be redone*
 
 #### Checking the log files
 
@@ -147,7 +146,6 @@ hexo lc show-logs
 
 The screenshot below shows the log file when you set `silent_logs: true` into `_config.yml`:
 
-![](http://i4.minus.com/iAqeZkqvwJnRL.png)
+*screenshot to be redone*
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/sergiolepore/hexo-broken-link-checker/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
