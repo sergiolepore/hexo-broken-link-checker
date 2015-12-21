@@ -1,5 +1,7 @@
 ## Introduction
 
+[![npm version][npm-badge]][npm-url]
+
 This is a [hexo](https://github.com/tommy351/hexo) plugin which detects links that don't work, missing images and redirects.
 
 ## Plugin installation
@@ -149,3 +151,6 @@ The screenshot below shows the log file when you set `silent_logs: true` into `_
 *screenshot to be redone*
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/sergiolepore/hexo-broken-link-checker/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
+[npm-badge]: https://badge.fury.io/js/hexo-broken-link-checker.svg
+[npm-url]: https://badge.fury.io/js/hexo-broken-link-checker
