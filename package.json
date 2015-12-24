@@ -12,6 +12,9 @@
     "type": "git",
     "url": "https://github.com/sergiolepore/hexo-broken-link-checker.git"
   },
+  "scripts": {
+    "test": "lab -I hexo"
+  },
   "dependencies": {
     "request": ">=2.67.0",
     "wrench": ">=1.5.8",
@@ -51,5 +54,10 @@
   ],
   "bugs": {
     "url": "https://github.com/sergiolepore/hexo-broken-link-checker/issues"
+  },
+  "devDependencies": {
+    "code": "^1.5.0",
+    "hexo": "^3.1.1",
+    "lab": "^6.2.0"
   }
 }
