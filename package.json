@@ -13,7 +13,7 @@
     "url": "https://github.com/sergiolepore/hexo-broken-link-checker.git"
   },
   "scripts": {
-    "test": "lab -I hexo"
+    "test": "lab -I 'hexo,makeString'"
   },
   "dependencies": {
     "request": ">=2.67.0",
