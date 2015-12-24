@@ -1,8 +1,11 @@
-## Introduction
+# Hexo Broken Link Checker
 
 [![npm version][npm-badge]][npm-url]
+[![Build Status][travis-badge]][travis-url]
+[![Coverage Status][coveralls-badge]][coveralls-url]
+[![Dependency Status][david-badge]][david-url]
 
-This is a [hexo](https://github.com/tommy351/hexo) plugin which detects links that don't work, missing images and redirects.
+This is a [hexo](https://github.com/hexojs/hexo) plugin which detects links that don't work, missing images and redirects.
 
 ## Plugin installation
 
@@ -150,7 +153,11 @@ The screenshot below shows the log file when you set `silent_logs: true` into `_
 
 *screenshot to be redone*
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/sergiolepore/hexo-broken-link-checker/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
 [npm-badge]: https://badge.fury.io/js/hexo-broken-link-checker.svg
 [npm-url]: https://badge.fury.io/js/hexo-broken-link-checker
+[travis-badge]: https://api.travis-ci.org/sergiolepore/hexo-broken-link-checker.svg
+[travis-url]: https://travis-ci.org/sergiolepore/hexo-broken-link-checker
+[coveralls-badge]:https://coveralls.io/repos/sergiolepore/hexo-broken-link-checker/badge.svg?branch=master&service=github
+[coveralls-url]: https://coveralls.io/github/sergiolepore/hexo-broken-link-checker?branch=master
+[david-badge]: https://david-dm.org/sergiolepore/hexo-broken-link-checker.svg
+[david-url]: https://david-dm.org/sergiolepore/hexo-broken-link-checker
